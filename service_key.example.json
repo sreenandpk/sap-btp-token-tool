@@ -1,0 +1,38 @@
+{
+  "uaa": {
+    "tenantmode": "dedicated",
+    "sburl": "https://internal-xsuaa.authentication.us10.hana.ondemand.com",
+    "subaccountid": "your-subaccount-id",
+    "credential-type": "binding-secret",
+    "clientid": "sb-xxxx-xxxx-xxxx!b1234|abap-trial-service-broker!b1234",
+    "xsappname": "xxxx-xxxx-xxxx!b1234|abap-trial-service-broker!b1234",
+    "clientsecret": "your-client-secret-here",
+    "serviceInstanceId": "your-service-instance-id",
+    "url": "https://your-subaccount.authentication.us10.hana.ondemand.com",
+    "uaadomain": "authentication.us10.hana.ondemand.com",
+    "apiurl": "https://api.authentication.us10.hana.ondemand.com",
+    "identityzone": "your-identity-zone",
+    "identityzoneid": "your-identity-zone-id",
+    "tenantid": "your-tenant-id",
+    "zoneid": "your-zone-id"
+  },
+  "url": "https://your-abap-system-id.abap.us10.hana.ondemand.com",
+  "sap.cloud.service": "com.sap.cloud.abap",
+  "systemid": "TRL",
+  "endpoints": {
+    "abap": "https://your-abap-system-id.abap.us10.hana.ondemand.com"
+  },
+  "catalogs": {
+    "abap": {
+      "path": "/sap/opu/odata/IWFND/CATALOGSERVICE;v=2",
+      "type": "sap_abap_catalog_v1"
+    }
+  },
+  "binding": {
+    "env": "cf",
+    "version": "1.0.1.1",
+    "type": "oauth",
+    "id": "your-binding-id"
+  },
+  "preserve_host_header": true
+}

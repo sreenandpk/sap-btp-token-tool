@@ -1,0 +1,19 @@
+# SAP BTP Credentials & Tokens - NEVER COMMIT!
+service_key.json
+token.json
+*.env
+.env
+
+# Python Virtual Environments & Caches
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE & Editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
